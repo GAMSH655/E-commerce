@@ -1,0 +1,50 @@
+.heroText{
+    padding: 15px;
+    margin: 10px;
+    text-transform: capitalize;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.fa-chevron-right{
+margin-left: 40px;
+}
+.right{
+    margin-left: 65px;
+}
+.textBox{
+     border-right: 1.5px solid black;
+    
+}
+.heroImg{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    line-height: 90px;
+}
+.hero2{
+    font-size: 4em;
+    font-weight: 400;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+.apple{
+     padding: 15px;
+}
+.up , .v{
+    color: white;
+    font-weight: 400;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+
+}
+.Herom{
+    text-align: center;
+    padding: 15px;
+}
+.heroParentContainer{
+     display: flex;
+     justify-content: space-between;
+}

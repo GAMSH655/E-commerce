@@ -1,10 +1,13 @@
 import "./Hero.css"
+import Iphone from "../assets/Iphone.png"
 function Hero(){
      return (
          <div>
+                         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <div className="heroParentContainer">
             <div className="textBox">
-                <p className="heroText">woman;s fashion</p>
-                <p className="heroText">men fashion</p>
+                <p className="heroText">woman's fashion  <i className="fa-solid fa-chevron-right"></i></p>
+                <p className="heroText">men fashion   <i className="fa-solid fa-chevron-right right"></i></p>
                 <p className="heroText">electronics</p>
                 <p className="heroText">home and lifestyle</p>
                 <p className="heroText">medicine</p>
@@ -12,8 +15,18 @@ function Hero(){
                 <p className="heroText">baby's toy</p>
                 <p className="heroText">groceries and pets</p>
                 <p className="heroText">health & beauty</p>
-                
-                
+            </div>
+            <div className="heroImg">
+                <div className="Herom">
+                <p className="hero2">
+                <i className="fa-brands fa-apple apple"></i>
+                iphone 14 series
+                </p>
+                <p className="up">up to 10%</p>
+                <p className="v">off voucher</p>
+                    </div>
+                 <img src={Iphone} alt="" />
+            </div>
             </div>
          </div>
      )
