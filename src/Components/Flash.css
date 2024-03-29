@@ -1,0 +1,30 @@
+.flashcontainer{
+    display: flex;
+    margin: 30pxs;
+}
+.timeContainer{
+    display: flex;
+    margin-left: 30px;
+}
+.span{
+    display: block;
+}
+.time{
+    margin: 10px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: center;
+}
+.flash{
+    color: #DB4444;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.day{
+    font-weight: bolder;
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin: 30px;
+}
