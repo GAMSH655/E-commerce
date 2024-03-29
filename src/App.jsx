@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Header from "../src/Components/Header"
+import Home from "../src/Pages/Home"
 
 
 
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-       <Header />
+    <Home />
     </>
   )
 }

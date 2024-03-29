@@ -35,10 +35,11 @@ input {
     border-radius: 5px;
     border: none;
     position: relative;
+    box-shadow: 1px 1px 1px 1px black;
+    position: relative;
+    right: 60px;
 }
-.fa-magnifying-glass{
-   margin-right:40px ;
-}
-.fa-heart ,.fa-cart-shopping{
+
+.icon{
  margin: 10px;
 }

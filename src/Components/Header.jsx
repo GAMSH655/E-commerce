@@ -6,14 +6,16 @@ function Header(){
             <h3 className={HeaderStyle.logoText}>exclusive</h3>
             <div className={HeaderStyle.Navcontainer}>
                    <a href="">home</a>
-                   <a href="">contact</a>
+                   <a href="">Contact</a>
                    <a href=""> about </a>
                    <a href=""> sign up </a>
             </div>
              <div className={HeaderStyle.searchContainer}>
-          <input type="" placeholder="what are looking for "/><i class="fa-solid fa-magnifying-glass "></i>
-             <i class="fa-solid fa-heart"></i>
-             <i class="fa-solid fa-cart-shopping"></i>
+              <span>
+              <input type="" placeholder="what are looking for "/><i className="fa-solid fa-magnifying-glass icon "></i>
+              </span>
+             <i className="fa-solid fa-heart icon"></i>
+             <i className="fa-solid fa-cart-shopping icon"></i>
              </div>
          </div>
     )
