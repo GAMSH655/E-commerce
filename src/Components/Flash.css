@@ -1,6 +1,7 @@
 .flashcontainer{
     display: flex;
-    margin: 30pxs;
+    justify-content: space-between;
+    margin: 30px;
 }
 .timeContainer{
     display: flex;
@@ -27,4 +28,9 @@
     font-size: 2rem;
     text-transform: capitalize;
     margin: 30px;
+}
+.arrow{
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
 }

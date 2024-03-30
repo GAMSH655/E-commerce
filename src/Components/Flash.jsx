@@ -11,7 +11,12 @@ function Flash(){
                  <p className="time">minutes<span className="span">19 :</span></p>
                  <p className="time">seconds <span className="span">56 </span></p>
                  </div>
+                 <div className="arrowContainer">
+                    <button className="arrow"><i className="fa-solid fa-arrow-left "></i></button>
+                    <button className="arrow"><i className="fa-solid fa-arrow-right "></i></button>
                  </div>
+                 </div>
+                 
               </div>
      )
 }export default Flash
