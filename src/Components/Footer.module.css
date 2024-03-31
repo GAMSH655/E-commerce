@@ -14,7 +14,7 @@
  padding: 10px;
 }
 .get , .sub{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: capitalize;
     padding: 10px;
@@ -34,7 +34,7 @@
  padding: 10px;
 }
 .add{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: capitalize;
     padding: 10px;
@@ -48,7 +48,7 @@
 }
 .FotterLink{
     display: block;
-    margin: 20px;
+      margin-top: 20px;
     text-decoration: none;
     font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
