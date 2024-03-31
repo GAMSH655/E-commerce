@@ -1,0 +1,26 @@
+.footerContainer{
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+    padding: 50px;
+}
+.exclusive{
+ font-size: 2rem;
+ font-weight: bold;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-transform: capitalize;
+ padding: 10px;
+}
+.get , .sub{
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.FooterInpt{
+    background-color: transparent;
+    border: 1.5px solid white;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
