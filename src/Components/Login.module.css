@@ -15,7 +15,7 @@
     /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
 }
 form{
-     margin: 50px;
+     margin: 40px;
 }
 .enter{
    font-weight: bolder;
@@ -23,11 +23,24 @@ form{
    margin: 20px;
 }
 .log{
-    margin-top: 20px;
+    margin-top: 50px;
     width: 300px;
     padding: 5px;
     background-color: transparent;
     border: none;
     border-bottom: 2px solid black;
     text-transform: capitalize;
+}
+.blog{
+    background-color: #DB4444;
+    width: 100%;
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 1rem;
 }

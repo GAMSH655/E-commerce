@@ -1,6 +1,7 @@
 import LoginStyle from "../Components/Login.module.css"
 import Header from "../Components/Header"
 import LoginImg from "../assets/CartPhone.png"
+import Footer from "../Components/Footer"
 
 function Login(){
      return(
@@ -15,9 +16,12 @@ function Login(){
                 <input type="text" placeholder="name" className={LoginStyle.log} />
                 <input type="mail" placeholder="email or phone number" className={LoginStyle.log}  />
                 <input type="password" placeholder="password" className={LoginStyle.log}  />
+                <button className={LoginStyle.blog} >create account</button>
              </form>
          </div>
         </div>
+        <Footer />
           </div>
+
      )
 }export default Login;
