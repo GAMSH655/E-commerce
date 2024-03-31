@@ -44,3 +44,27 @@ form{
     letter-spacing: 2px;
     font-size: 1rem;
 }
+.Google{
+    background-color: white;
+    width: 100%;
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 9px;
+    border:2px solid black;
+    outline: none;
+    color:black;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+.Imgg{
+    border-radius: 50%;
+    height: 20px;
+    margin: 5px;
+}
+.already{
+    font-weight: normal;
+    font-size: 1.2rem;
+    text-align: center;
+     text-transform: capitalize;
+}

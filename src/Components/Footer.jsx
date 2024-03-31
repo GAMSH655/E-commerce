@@ -1,5 +1,4 @@
-import FooterStyle from "../Components/Footer.module.css"
-
+import FooterStyle from "../Components/Header"
 function Footer(){
      return(
          <div>
