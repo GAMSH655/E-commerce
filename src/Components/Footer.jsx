@@ -1,4 +1,5 @@
 import FooterStyle from "../Components/Footer.module.css"
+import { NavLink } from "react-router-dom"
 function Footer(){
      return(
          <div>
@@ -29,6 +30,21 @@ function Footer(){
                 <p className={FooterStyle.add}>shittuabdquadri0@gmail.com</p>
                 <p className={FooterStyle.add}>07046309225</p>
               </div>
+                {/* end of first container */}
+
+                  {/* start of third container */}
+                 <div  className={FooterStyle.thircCont} >
+                     <h3  className={FooterStyle.acc}>
+                        account
+                     </h3>
+                    <NavLink to="/myaccount"  className= {FooterStyle.FotterLink}>my account</NavLink>
+                    <NavLink to="/login"  className= {FooterStyle.FotterLink}>Login/register</NavLink>
+                    <NavLink to="/cart"  className= {FooterStyle.FotterLink}>cart</NavLink>
+                    <NavLink to="/wishlist" className= {FooterStyle.FotterLink}>wishlist</NavLink>
+                    <NavLink to="/shop" className= {FooterStyle.FotterLink}>shop</NavLink>
+                 </div> 
+
+
            </div>   
          </div>
      )

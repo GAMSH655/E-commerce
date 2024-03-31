@@ -39,3 +39,21 @@
     text-transform: capitalize;
     padding: 10px;
 }
+.acc{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.FotterLink{
+    display: block;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    padding: 8px;
+    color: white;
+    letter-spacing: 2px;
+}
