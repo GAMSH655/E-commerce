@@ -15,7 +15,7 @@
     text-transform: capitalize;
     padding: 10px;
 }
-a{
+.Link{
      padding: 10px;
      text-decoration: none;
      font-weight: 400;
@@ -30,7 +30,7 @@ a{
 .searchContainer{
     margin-top:20px ;
 }
-input {
+.input {
     padding: 8px;  
     border-radius: 5px;
     border: none;
