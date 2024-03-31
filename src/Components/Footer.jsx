@@ -18,6 +18,17 @@ function Footer(){
                 placeholder="enter your email"/>
             </div> 
             {/* end of first container */}
+
+             {/* start of secon container */}
+              <div className={FooterStyle.secondCont} >
+                <h3  className={FooterStyle.supp}>
+                    support
+                </h3>
+            <p className={FooterStyle.add}>111 shomolu bajulaiye</p>
+                <p className={FooterStyle.add}>lagos nigeria</p>
+                <p className={FooterStyle.add}>shittuabdquadri0@gmail.com</p>
+                <p className={FooterStyle.add}>07046309225</p>
+              </div>
            </div>   
          </div>
      )

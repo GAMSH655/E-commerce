@@ -3,6 +3,8 @@
     margin-top: 50px;
     color: white;
     padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .exclusive{
  font-size: 2rem;
@@ -23,4 +25,17 @@
     padding: 10px;
     margin: 10px;
     color: white;
+}
+.supp{
+    font-size: 2rem;
+ font-weight: bold;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-transform: capitalize;
+ padding: 10px;
+}
+.add{
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    padding: 10px;
 }
