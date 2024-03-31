@@ -43,8 +43,15 @@ function Footer(){
                     <NavLink to="/wishlist" className= {FooterStyle.FotterLink}>wishlist</NavLink>
                     <NavLink to="/shop" className= {FooterStyle.FotterLink}>shop</NavLink>
                  </div> 
-
-
+                   <div className={FooterStyle.fourthCont} >
+                   <h3  className={FooterStyle.quick}>
+                       quick links
+                     </h3>
+                     <p className={FooterStyle.q}>privacy and policy</p>
+                     <p className={FooterStyle.q}>terms of use</p>
+                     <p className={FooterStyle.q}>FAQ</p>
+                     <p className={FooterStyle.q}>contact</p>
+                   </div>
            </div>   
          </div>
      )
