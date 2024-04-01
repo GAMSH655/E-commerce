@@ -2,7 +2,7 @@
     background-color: black;
     margin-top: 50px;
     color: white;
-    padding: 50px;
+   
     display: flex;
     justify-content: space-evenly;
 }
@@ -72,4 +72,25 @@
     text-transform: capitalize;
     padding: 10px;
     letter-spacing: 2px;
+}
+.download{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.save{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.me{
+    display: flex;
+    margin: 20px;
+}
+.icon{
+    margin: 5px;
 }

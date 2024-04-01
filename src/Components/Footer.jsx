@@ -1,8 +1,10 @@
 import FooterStyle from "../Components/Footer.module.css"
 import { NavLink } from "react-router-dom"
+import Bar from "../assets/Bar.png"
 function Footer(){
      return(
          <div>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
            <div className={FooterStyle.footerContainer}>
               {/* start of first container */}
             <div className={FooterStyle.firstcont}>
@@ -51,6 +53,21 @@ function Footer(){
                      <p className={FooterStyle.q}>terms of use</p>
                      <p className={FooterStyle.q}>FAQ</p>
                      <p className={FooterStyle.q}>contact</p>
+                   </div>
+                   <div className={FooterStyle.FifthSec}>
+                    <h3 className={FooterStyle.download}>
+                      download app
+                    </h3>
+                  <p className= {FooterStyle.save}>
+                  Save $3 with App New User Only
+                  </p>
+                  <img src={Bar} alt="" />
+                      <div className={FooterStyle.me}>
+                        <p className={FooterStyle.icon}> <i class="fa-brands fa-facebook"></i></p>
+                        <p className={FooterStyle.icon}> <i class="fa-brands fa-github"></i></p>
+                        <p className={FooterStyle.icon}> <i class="fa-brands fa-twitter"></i></p>
+                        <p className={FooterStyle.icon}><i class="fa-brands fa-instagram"></i></p>
+                      </div>
                    </div>
            </div>   
          </div>
