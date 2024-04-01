@@ -2,7 +2,7 @@ import Header from "../Components/Header";
 import "../Components/About.css"
 import Ladies from "../assets/Twoladies.png"
 import Sack from "../assets/Sack.png"
-import Dollar from "../assets/dollar.png"
+import Dollar from "../assets/Dol.png"
 import Headphone from "../assets/Headphone.png"
 import House from "../assets/House.png"
 
@@ -25,7 +25,40 @@ function About(){
              </div>
              <div className="midleContainer">
                  <div className="div1">
-                     i
+                     <img src= {Headphone} alt="" />
+                     <h3 className="boldText">
+                         24/7 customer service
+                     </h3>
+                     <p className="infotext">
+                     Friendly 24/7 customer support
+                     </p>
+                 </div>
+                 <div className="div1">
+                     <img src= {House} alt="" />
+                     <h3 className="boldText">
+                        10.5k
+                     </h3>
+                     <p className="infotext">
+                     Sallers active our site
+                     </p>
+                 </div>
+                 <div className="div1">
+                     <img src= {Dollar} alt="" />
+                     <h3 className="boldText">
+                      33k
+                     </h3>
+                     <p className="infotext">
+                     Monthly Produduct Sale
+                     </p>
+                 </div>
+                 <div className="div1">
+                     <img src= {Sack} alt="" />
+                     <h3 className="boldText">
+                      25k
+                     </h3>
+                     <p className="infotext">
+                     Anual gross sale in our site
+                     </p>
                  </div>
              </div>
          </div>

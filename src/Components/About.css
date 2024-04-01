@@ -23,3 +23,31 @@
     height: 500px;
     width: 500px;
 }
+.midleContainer{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     margin: 50px;
+}
+.div1{
+   border: 1.5px solid black;
+   text-align: center;
+   padding: 25px;
+   transition: .5s all ease-in;
+}
+.div1:hover {
+     background-color: #DB4444;
+     color: white;
+}
+.boldText{
+      font-size: 1.5rem;
+      font-weight: bolder;
+      text-transform: capitalize;
+      padding: 10px;
+}
+.infotext{
+      font-size: 1rem;
+      font-weight: 500;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding: 10px;
+}
