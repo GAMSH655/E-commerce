@@ -7,7 +7,7 @@
     justify-content: space-evenly;
 }
 .exclusive{
- font-size: 2rem;
+ font-size: 1.5rem;
  font-weight: bold;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  text-transform: capitalize;
@@ -28,7 +28,7 @@
     color: white;
 }
 .supp{
-    font-size: 2rem;
+    font-size: 1.5rem;
  font-weight: bold;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  text-transform: capitalize;
@@ -42,7 +42,7 @@
     letter-spacing: 2px;
 }
 .acc{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: capitalize;
@@ -60,7 +60,7 @@
     letter-spacing: 2px;
 }
 .quick{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: capitalize;
@@ -74,7 +74,7 @@
     letter-spacing: 2px;
 }
 .download{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: capitalize;

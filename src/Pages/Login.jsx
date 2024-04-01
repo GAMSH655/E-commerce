@@ -17,7 +17,10 @@ function SignIN(){
              <form action="">
                 <input type="mail" placeholder="email or phone number" className={LoginStyle.log}  />
                 <input type="password" placeholder="password" className={LoginStyle.log}  />
-                <button className={LoginStyle.blog} >create account</button>
+               <div className={LoginStyle.pss}>
+                    <button className= {LoginStyle.btn} >log in</button>
+                    <p  className= {LoginStyle.fgtp} >forget password ?</p>
+               </div>
              </form>
              <p className={LoginStyle.already}>already have an account ?  
                
