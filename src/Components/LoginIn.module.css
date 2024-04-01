@@ -10,8 +10,9 @@
 }
 .UpperText{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
+    color: yellowgreen;
     /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
 }
 form{
@@ -20,7 +21,8 @@ form{
 .enter{
    font-weight: bolder;
    font-size: 1rem;
-   margin: 20px;
+   margin-left: 95px;
+   padding: 10px;
 }
 .log{
     margin-top: 50px;

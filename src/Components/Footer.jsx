@@ -63,10 +63,10 @@ function Footer(){
                   </p>
                   <img src={Bar} alt="" />
                       <div className={FooterStyle.me}>
-                        <p className={FooterStyle.icon}> <i class="fa-brands fa-facebook"></i></p>
-                        <p className={FooterStyle.icon}> <i class="fa-brands fa-github"></i></p>
-                        <p className={FooterStyle.icon}> <i class="fa-brands fa-twitter"></i></p>
-                        <p className={FooterStyle.icon}><i class="fa-brands fa-instagram"></i></p>
+                        <p className={FooterStyle.icon}> <i className="fa-brands fa-facebook"></i></p>
+                        <p className={FooterStyle.icon}> <i className="fa-brands fa-github"></i></p>
+                        <p className={FooterStyle.icon}> <i className="fa-brands fa-twitter"></i></p>
+                        <p className={FooterStyle.icon}><i className="fa-brands fa-instagram"></i></p>
                       </div>
                    </div>
            </div>   

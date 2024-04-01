@@ -1,11 +1,10 @@
-import LoginStyle from "../Components/Login.module.css"
+import LoginStyle from "../Components/LoginIn.module.css"
 import Header from "../Components/Header"
 import LoginImg from "../assets/CartPhone.png"
 import Footer from "../Components/Footer"
-import Google from "../assets/Google.png"
 import { NavLink } from "react-router-dom"
 
-function Login(){
+function SignIN(){
      return(
           <div>
              <Header />
@@ -13,16 +12,12 @@ function Login(){
         <div className={LoginStyle.formParent}>
          <img src={LoginImg} alt="" />
          <div className={LoginStyle.formCont}>
-           <h3 className={LoginStyle.UpperText}>Create an account</h3>
+           <h3 className={LoginStyle.UpperText}>Log in to Exclusive</h3>
             <p className={LoginStyle.enter}> Enter your details below </p>
              <form action="">
-                <input type="text" placeholder="name" className={LoginStyle.log} />
                 <input type="mail" placeholder="email or phone number" className={LoginStyle.log}  />
                 <input type="password" placeholder="password" className={LoginStyle.log}  />
                 <button className={LoginStyle.blog} >create account</button>
-                <button className={LoginStyle.Google} >
-                    <img src={Google} alt="" className=  {LoginStyle.Imgg}/>
-                    create account</button>
              </form>
              <p className={LoginStyle.already}>already have an account ?  
                
@@ -35,4 +30,4 @@ function Login(){
           </div>
 
      )
-}export default Login;
+}export default SignIN;
