@@ -1,0 +1,25 @@
+.AboutConnt{
+     display: flex;
+}
+.upAbt{
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    padding: 20px;
+    text-transform: capitalize;
+}
+.abText{
+     font-size: 400;
+     font-size: 1rem;
+     line-height: 50px;
+     padding:20px ;
+}
+.aboutText{
+     margin: 50px;
+}
+.woman{
+    margin: 20px;
+    height: 500px;
+    width: 500px;
+}

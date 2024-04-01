@@ -1,6 +1,10 @@
 import Header from "../Components/Header";
 import "../Components/About.css"
 import Ladies from "../assets/Twoladies.png"
+import Sack from "../assets/Sack.png"
+import Dollar from "../assets/dollar.png"
+import Headphone from "../assets/Headphone.png"
+import House from "../assets/House.png"
 
 function About(){
      return(
@@ -17,7 +21,12 @@ function About(){
                         Exclusive has more than 1 Million products to offer, growing at a very fast. Exclusive offers a diverse assotment in categories ranging  from consumer.
                      </p>
                  </div>
-                  <img src={Ladies} alt="" />
+                  <img src={Ladies} alt=""  className="woman"/>
+             </div>
+             <div className="midleContainer">
+                 <div className="div1">
+                     i
+                 </div>
              </div>
          </div>
      )
