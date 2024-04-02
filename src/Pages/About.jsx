@@ -70,7 +70,7 @@ function About(){
 
              <div className="peopleContainer">
                  <div className="boxPerson1">
-                    <img src={Tom} alt="" />
+                    <img src={Tom} alt="" id="imgt" />
                     <p className="name">
                          Tom cruise
                     </p>
@@ -83,7 +83,7 @@ function About(){
             <i className="fa-brands fa-github"></i>
                  </div>
                  <div className="boxPerson1">
-                    <img src={Emma} alt="" />
+                    <img src={Emma} alt=""   id="imgt"/>
                     <p className="name">
                          Emma watson
                     </p>
@@ -96,7 +96,7 @@ function About(){
             <i className="fa-brands fa-github"></i>
                  </div>
                  <div className="boxPerson1">
-                    <img src={Will} alt="" />
+                    <img src={Will} alt=""   id="imgt"/>
                     <p className="name">
                       product designer
                     </p>

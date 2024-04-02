@@ -20,6 +20,7 @@ margin-left: 40px;
     justify-content: space-around;
     background-color: black;
     line-height: 90px;
+    /* width: 100%; */
 }
 .hero2{
     font-size: 4em;
@@ -47,4 +48,5 @@ margin-left: 40px;
 .heroParentContainer{
      display: flex;
      justify-content: space-between;
+     width: 100%;
 }
