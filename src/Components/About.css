@@ -67,3 +67,32 @@
      justify-content: space-evenly;
      align-items: center;
 }
+.iconCont{
+     display:flex;
+     justify-content: space-evenly;
+     align-items: center;
+     margin-top: 70px;
+}
+.iconTExt{
+      font-size: 1rem;
+      font-weight: bolder;
+      text-transform: uppercase;
+      padding-top: 15px;
+}
+.box1{
+     text-align: center;
+     padding: 10px;
+     transition: .5s all ease-in;
+     border-radius: 10px;
+}
+.txt{
+     padding: 10px;
+    font-family: fira sans;
+}
+.box1:hover {
+     background-color: #DB4444;
+     color: white;
+}
+*{
+     font-family: fira sans;
+}

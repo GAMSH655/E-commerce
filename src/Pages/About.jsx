@@ -1,4 +1,5 @@
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 import "../Components/About.css"
 import Ladies from "../assets/Twoladies.png"
 import Sack from "../assets/Sack.png"
@@ -8,6 +9,8 @@ import House from "../assets/House.png"
 import Will from "../assets/Willy.png"
 import Emma from "../assets/Emma.png"
 import Tom from "../assets/Tom.png"
+import Bus from "../assets/Bus.png"
+import Mark from "../assets/Mark.png"
 
 function About(){
      return(
@@ -95,7 +98,7 @@ function About(){
                  <div className="boxPerson1">
                     <img src={Will} alt="" />
                     <p className="name">
-                      product desiner
+                      product designer
                     </p>
                     <p className="title">
                         managing director
@@ -106,7 +109,35 @@ function About(){
             <i className="fa-brands fa-github"></i>
                  </div>
              </div>
-           
+            
+            <div className="iconCont">
+                <div className="box1">
+                      <img src={Bus} alt="" />
+                      <p className="iconTExt">
+                         fast and free delivery
+                      </p>
+                      <p className="txt">Free delivery for all orders over $140</p>
+                </div>
+                <div className="box1">
+                      <img src={Headphone} alt="" />
+                      <p className="iconTExt">
+                      fast and free delivery
+                      </p>
+                      <p className="txt">
+                      Friendly 24/7 customer support
+                      </p>
+                </div>
+                <div className="box1">
+                      <img src={Mark} alt="" />
+                      <p className="iconTExt">
+                      fast and free delivery
+                      </p>
+                      <p className="txt">
+                      We return money within 30 days
+                      </p>
+                </div>
+            </div>
+            <Footer />
          </div>
      )
 }export default About
