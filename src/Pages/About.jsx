@@ -5,6 +5,9 @@ import Sack from "../assets/Sack.png"
 import Dollar from "../assets/Dol.png"
 import Headphone from "../assets/Headphone.png"
 import House from "../assets/House.png"
+import Will from "../assets/Willy.png"
+import Emma from "../assets/Emma.png"
+import Tom from "../assets/Tom.png"
 
 function About(){
      return(
@@ -61,6 +64,49 @@ function About(){
                      </p>
                  </div>
              </div>
+
+             <div className="peopleContainer">
+                 <div className="boxPerson1">
+                    <img src={Tom} alt="" />
+                    <p className="name">
+                         Tom cruise
+                    </p>
+                    <p className="title">
+                         Founder and chairman
+                    </p>
+                    <i className="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-github"></i>
+                 </div>
+                 <div className="boxPerson1">
+                    <img src={Emma} alt="" />
+                    <p className="name">
+                         Emma watson
+                    </p>
+                    <p className="title">
+                        managing director
+                    </p>
+                    <i className="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-github"></i>
+                 </div>
+                 <div className="boxPerson1">
+                    <img src={Will} alt="" />
+                    <p className="name">
+                      product desiner
+                    </p>
+                    <p className="title">
+                        managing director
+                    </p>
+                    <i className="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-github"></i>
+                 </div>
+             </div>
+           
          </div>
      )
 }export default About
