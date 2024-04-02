@@ -36,3 +36,33 @@
     border: none;
     outline: none;
 }
+.mm{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.eachItem{
+padding: 50px;
+position:relative;
+}
+.innerEye{
+   position: absolute;
+   top: 20px;
+   right:20px ;
+}
+.ic{
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+}
+.percenTage{
+    position: absolute;
+    top: 20px;
+     right:160px ;
+     background-color: #DB4444;
+     padding: 5px;
+     border-radius: 10px;
+}
+.goodImg{
+    background-color: whitesmoke;
+}

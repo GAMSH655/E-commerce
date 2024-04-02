@@ -3,23 +3,25 @@ import Tv from "../assets/Tv.png"
 import Game from "../assets/Gamepad.png"
 import Keyboard from "../assets/Keyboard.png"
 import Chair from "../assets/Chair.png"
+import {FaHeart} from "react-icons/fa"
+import { FaEye } from "react-icons/fa"
 function Flash(){
     const Items = [
        { id :1,
-          img: "./assets/Gamepad.png",
-          itemTag : "HAVIT HV-G92 Gamepad"
+          img:Game,
+         //  itemTag : "HAVIT HV-G92 Gamepad"
        },
        {  id :2,
-          img: "../assets/Keyboard.png",
-          itemTag : "AK-900 Wired Keyboard"
+          img: Keyboard,
+         //  itemTag : "AK-900 Wired Keyboard"
        },
        { id :3,
-          img:"../assets/Tv.png",
-          itemTag : "IPS LCD Gaming Monitor"
+          img:Tv,
+         //  itemTag : "IPS LCD Gaming Monitor"
        },
        {  id :4,
-          img:"../assets/Chair.png",
-          itemTag : "S-Series Comfort Chair "
+          img:Chair,
+         //  itemTag : "S-Series Comfort Chair "
        },
       ]
    
@@ -39,16 +41,23 @@ function Flash(){
                     <button className="arrow"><i className="fa-solid fa-arrow-right "></i></button>
                  </div>
                  </div>
-                {
+               <div className="mm">
+               {
                    Items.map((goodd)=>{
-                     return(
-                        <div>
-                            <img src={goodd.img} alt="" />
-                            <p>{goodd.itemTag}</p>
+                     
+                     return(<div className="eachItem">
+                         <img src={goodd.img} alt=""  className="goodImg"/>
+                            {/* <p>{goodd.itemTag}</p> */}
+                            <div className="innerEye">
+                             <p><FaHeart className="ic"/></p>  
+                              <p> <FaEye className="ic" /></p>
+                              <p className="percenTage">40%</p>
+                            </div>
                         </div>
                      )
                    })
                 }
+               </div>
               </div>
      )
 }export default Flash
