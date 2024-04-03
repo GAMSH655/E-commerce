@@ -44,6 +44,7 @@
 .eachItem{
 padding: 50px;
 position:relative;
+background-color: whitesmoke;
 }
 .innerEye{
    position: absolute;
@@ -63,6 +64,30 @@ position:relative;
      padding: 5px;
      border-radius: 10px;
 }
+.tagName{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.star{
+    color: yellow;
+    margin: 3px;
+}
+.starText{
+     color: rgb(143, 122, 122);
+}
 .goodImg{
-    background-color: whitesmoke;
+    height: 200px;
+    width: 200px;
+}
+.buy{
+    width: 200px;
+    margin-top: 20px;
+    padding: 9px;
+    font-size: bold;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
 }

@@ -5,23 +5,28 @@ import Keyboard from "../assets/Keyboard.png"
 import Chair from "../assets/Chair.png"
 import {FaHeart} from "react-icons/fa"
 import { FaEye } from "react-icons/fa"
+import { FaStar } from "react-icons/fa"
 function Flash(){
     const Items = [
        { id :1,
           img:Game,
-         //  itemTag : "HAVIT HV-G92 Gamepad"
+          itemTag : "HAVIT HV-G92 Gamepad",
+          itemPrice: 120 
        },
        {  id :2,
           img: Keyboard,
-         //  itemTag : "AK-900 Wired Keyboard"
+          itemTag : "AK-900 Wired Keyboard",
+          itemPrice: 180 
        },
        { id :3,
           img:Tv,
-         //  itemTag : "IPS LCD Gaming Monitor"
+          itemTag : "IPS LCD Gaming Monitor",
+          itemPrice: 500
        },
        {  id :4,
           img:Chair,
-         //  itemTag : "S-Series Comfort Chair "
+          itemTag : "S-Series Comfort Chair ",
+          itemPrice: 600
        },
       ]
    
@@ -47,12 +52,24 @@ function Flash(){
                      
                      return(<div className="eachItem">
                          <img src={goodd.img} alt=""  className="goodImg"/>
-                            {/* <p>{goodd.itemTag}</p> */}
+                            <p className="tagName">{goodd.itemTag}</p>
+                            <p className="tagName">${goodd.itemPrice} </p>
                             <div className="innerEye">
                              <p><FaHeart className="ic"/></p>  
                               <p> <FaEye className="ic" /></p>
                               <p className="percenTage">40%</p>
                             </div>
+                             <div className="starIcon">
+                               <FaStar className="star"/>
+                               <FaStar className="star"/>
+                               <FaStar className="star"/>
+                               <FaStar className="star"/>
+                               <FaStar /> 
+                               <spn className="starText">
+                                 (88)
+                               </spn>
+                             </div>
+                             <button className="buy">add to cart</button>
                         </div>
                      )
                    })
