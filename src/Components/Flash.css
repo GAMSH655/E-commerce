@@ -91,3 +91,21 @@ background-color: whitesmoke;
     outline: none;
     border-radius: 10px;
 }
+.view{
+    font-size: bold;
+    text-transform: capitalize;
+    background-color:#DB4444;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    font-size: 1rem;
+}
+.btnView{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}

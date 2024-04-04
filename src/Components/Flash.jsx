@@ -75,6 +75,9 @@ function Flash(){
                    })
                 }
                </div>
+                 <div className="btnView">
+                   <button className="view">view products</button>
+                 </div>
               </div>
      )
 }export default Flash

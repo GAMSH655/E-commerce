@@ -8,10 +8,15 @@ function Categ(){
     return(
          <div>
             <h3 className="catText">Categories</h3>
-             <h3 className="browse">
+            <div className="browseCont">
+            <h3 className="browse">
                  browsse by Categories
-             </h3>
-
+                 </h3>
+                 <div className="arrowContainer">
+                    <button className="arrow"><i className="fa-solid fa-arrow-left "></i></button>
+                    <button className="arrow"><i className="fa-solid fa-arrow-right "></i></button>
+                 </div>
+            </div>
          </div>
     )
 }export default Categ
