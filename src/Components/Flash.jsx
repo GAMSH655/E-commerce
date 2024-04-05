@@ -65,9 +65,9 @@ function Flash(){
                                <FaStar className="star"/>
                                <FaStar className="star"/>
                                <FaStar /> 
-                               <spn className="starText">
+                               <span className="starText">
                                  (88)
-                               </spn>
+                               </span>
                              </div>
                              <button className="buy">add to cart</button>
                         </div>

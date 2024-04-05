@@ -22,3 +22,12 @@
     border: none;
     outline: none;
 }
+.CartContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gm{
+    height: 250px;
+    width: 250px;
+    background-color: whitesmoke;
+}

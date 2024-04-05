@@ -5,11 +5,11 @@ import Categ from "../Components/Categories"
 
 function Home(){
     return(
-         <div>
-              <Header  />
-              <Hero />
-              <Flash />
-              <Categ />
-         </div>
+         <>
+           <Header  />
+           <Hero />
+           <Flash />
+           <Categ />
+         </>
     )
 }export default Home
