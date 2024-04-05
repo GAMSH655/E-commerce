@@ -68,3 +68,17 @@ form{
     text-align: center;
      text-transform: capitalize;
 }
+@media  only screen and (max-width){
+    .formParent{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        background-color: red;
+    }
+    .formCont{
+         margin: 0px;
+         padding: 00px;
+         /* width: 100%; */
+    }
+}

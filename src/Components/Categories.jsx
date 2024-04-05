@@ -7,7 +7,13 @@ import { FaStar } from "react-icons/fa"
 import { FaDollarSign } from "react-icons/fa"
 import { FaHeart } from "react-icons/fa"
 import { FaEye } from "react-icons/fa"
+import { useState } from "react"
 function Categ(){
+      const [active , setActive] = useState(false)
+       const ToggleColor = () =>{
+        setActive(!active)
+       }
+
     const  catItem = [
          { id:1 ,
            catImg : GucciBg ,
@@ -32,6 +38,7 @@ function Categ(){
          }
     ]
     return(
+       
          <div>
             <h3 className="catText">Categories</h3>
             <div className="browseCont">
@@ -54,13 +61,13 @@ function Categ(){
                                <p className="cartPrice"> <FaDollarSign />
                                    {cartItem.cartPrice} <span className="oldPrice">($2000)</span>
                                </p>
-                               <p className="rateIcon">
-                                   <FaStar className="cartRate"/>
-                                   <FaStar className="cartRate"/>
-                                   <FaStar className="cartRate"/>
-                                   <FaStar className="cartRate"/>
-                                   <FaStar className="cartRate"/>
-                               </p>
+                               <div className="rateIcon" >
+                                <p    onClick={ToggleColor} > <FaStar className={`cartRate ${active ? "activeColor" : ""}`} /></p>
+                                <p    onClick={ToggleColor} > <FaStar className={`cartRate ${active ? "activeColor" : ""}`} /></p>
+                                <p    onClick={ToggleColor} > <FaStar className={`cartRate ${active ? "activeColor" : ""}`} /></p>
+                                <p    onClick={ToggleColor} > <FaStar className={`cartRate ${active ? "activeColor" : ""}`} /></p>
+                                <p    onClick={ToggleColor} > <FaStar className={`cartRate ${active ? "activeColor" : ""}`} /></p>
+                               </div>
                                <span className="icons">
                                <p>  <FaEye/> </p>
                                 <p> <FaHeart/> </p>

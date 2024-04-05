@@ -10,7 +10,7 @@ function SignIN(){
              <Header />
          
         <div className={LoginStyle.formParent}>
-         <img src={LoginImg} alt="" />
+         <img src={LoginImg} className={LoginStyle.imglog} />
          <div className={LoginStyle.formCont}>
            <h3 className={LoginStyle.UpperText}>Log in to Exclusive</h3>
             <p className={LoginStyle.enter}> Enter your details below </p>

@@ -109,3 +109,24 @@ background-color: whitesmoke;
     align-items: center;
     padding: 50px;
 }
+
+@media only screen and (max-width:768px) {
+   .mm{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .eachItem{
+    margin: 10px;
+   }
+   .timeContainer{
+    display: flex;
+}
+.flashcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flash{
+    text-align: center;
+    color:blue;
+}
+}

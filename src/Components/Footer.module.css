@@ -94,3 +94,27 @@
 .icon{
     margin: 5px;
 }
+@media only screen and (max-width:768px){
+    .footerContainer{
+        background-color: black;
+        margin-top: 50px;
+        color: white;
+       
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }  
+    .me{
+        display: flex;
+        margin: 20px;
+        flex-wrap: wrap;
+    }
+    .supp{
+        font-size: 1.5rem;
+     font-weight: bold;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-transform: capitalize;
+   
+    }
+  
+}

@@ -53,6 +53,16 @@
     color: rgb(37, 34, 34);
     text-decoration: line-through;
 }
-.cartRate{
-    color:yellow;
+.rateIcon{
+    display: flex;
+}
+.activeColor{
+color: yellow;
+}
+@media only screen and (max-width:768px) {
+   .CartContainer{
+    display: flex;
+    flex-wrap: wrap;
+   } 
+  
 }

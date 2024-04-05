@@ -18,9 +18,12 @@ margin-left: 40px;
 .heroImg{
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    background-image: url("../assets//Iphone.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
     line-height: 90px;
-    /* width: 100%; */
+    width: 100%;
 }
 .hero2{
     font-size: 4em;
@@ -48,4 +51,27 @@ margin-left: 40px;
 .heroParentContainer{
      display: flex;
      justify-content: space-between;
+}
+@media only screen and (max-width:768px) {
+    .heroParentContainer{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: c;
+   }
+   
+.heroImg{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url("../assets//Iphone.png");
+    line-height: 90px;
+    margin-right: 50px;
+    width: 100%;
+    text-align: center;
+}
+ .textBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+ }
 }

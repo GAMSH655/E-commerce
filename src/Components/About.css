@@ -96,3 +96,42 @@
 #imgt{
      background-color: whitesmoke;
 }
+@media only screen and (max-width:768px){
+     .AboutConnt{
+          display: flex;
+          flex-wrap: wrap;
+          text-align: center;
+     } 
+     .woman{
+          width: 350px;
+          width: 350px;
+     }
+     .midleContainer{
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-wrap: wrap;
+     }
+     .div1{
+          border: 1.5px solid black;
+          text-align: center;
+          padding: 25px;
+          transition: .5s all ease-in;
+          margin: 20px;
+       }
+       .peopleContainer{
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-wrap: wrap;
+     }
+     .boxPerson1{
+          margin: 20px;
+     }
+     .iconCont{
+          flex-wrap: wrap;
+     }
+     .box1{
+          margin: 15px;
+     }
+}

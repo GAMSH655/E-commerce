@@ -11,11 +11,12 @@ function SignIN(){
              <Header />
          
         <div className={SignStyle.formParent}>
-         <img src={LoginImg} alt="" />
+         <img src={LoginImg} alt=""  className={SignStyle.LoginImg}/>
          <div className={SignStyle.formCont}>
            <h3 className={SignStyle.UpperText}>Create an account</h3>
             <p className={SignStyle.enter}> Enter your details below </p>
-             <form action="">
+            <div className={SignStyle.form}>
+            <form action="">
                 <input type="text" placeholder="name" className={SignStyle.log} />
                 <input type="mail" placeholder="email or phone number" className={SignStyle.log}  />
                 <input type="password" placeholder="password" className={SignStyle.log}  />
@@ -24,6 +25,7 @@ function SignIN(){
                     <img src={Google} alt="" className=  {SignStyle.Imgg}/>
                     create account</button>
              </form>
+            </div>
              <p className={SignStyle.already}>already have an account ?  
                
             <NavLink to="/login">log in</NavLink>

@@ -6,7 +6,7 @@
 .formCont{
      margin: 20px;
      padding: 20px;
-     /* width: 100%; */
+     width: 100%;
 }
 .UpperText{
     text-align: center;
@@ -67,4 +67,23 @@ form{
     font-size: 1.2rem;
     text-align: center;
      text-transform: capitalize;
+}
+@media only screen and (max-width:768px) {
+    .formParent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .LoginImg{
+        height: 300px;
+        width: 300px;
+    }
+    .UpperText{
+        text-align: center;
+    }
+    .enter{
+        text-align: center;
+    }.formCont{
+        margin: 0px;
+        padding: 0px;
+   }
 }
