@@ -3,8 +3,10 @@ import GucciBg from "../assets/GucciBg.png"
 import Shelf from "../assets/Shelf.png"
 import Woofer from "../assets/Woofer.png"
 import  RedCoat from"../assets/RedCoat.png"
-import { FaHeart } from "react-icons/fa"
+import { FaStar } from "react-icons/fa"
 import { FaDollarSign } from "react-icons/fa"
+import { FaHeart } from "react-icons/fa"
+import { FaEye } from "react-icons/fa"
 function Categ(){
     const  catItem = [
          { id:1 ,
@@ -16,7 +18,6 @@ function Categ(){
            catImg : Shelf ,
            catName: "small bookshelf",
            cartPrice : 840,
-           CartRAte : <FaHeart />
          },
          {
           id:3 ,
@@ -47,12 +48,23 @@ function Categ(){
                 {
                      catItem.map((cartItem)=>{
                          return(
-                              <div>
+                              <div className="cartCont">
                                <img src={cartItem.catImg}alt="" className="gm" />  
-                               <p className="cartName"></p>{cartItem.catName}
+                               <p className="cartName"> {cartItem.catName}</p>
                                <p className="cartPrice"> <FaDollarSign />
-                                   {cartItem.cartPrice}
+                                   {cartItem.cartPrice} <span className="oldPrice">($2000)</span>
                                </p>
+                               <p className="rateIcon">
+                                   <FaStar className="cartRate"/>
+                                   <FaStar className="cartRate"/>
+                                   <FaStar className="cartRate"/>
+                                   <FaStar className="cartRate"/>
+                                   <FaStar className="cartRate"/>
+                               </p>
+                               <span className="icons">
+                               <p>  <FaEye/> </p>
+                                <p> <FaHeart/> </p>
+                               </span>
                               </div>
                          )
                      })

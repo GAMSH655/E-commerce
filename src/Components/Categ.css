@@ -26,8 +26,33 @@
     display: flex;
     justify-content: space-evenly;
 }
+.cartCont{
+    position: relative;
+}
+.icons{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
 .gm{
     height: 250px;
     width: 250px;
     background-color: whitesmoke;
+}
+.cartPrice{
+    padding: 5px;
+    font-weight: bolder;
+    color:#DB4444;
+}
+.cartName{
+    text-transform: capitalize;
+    padding: 5px;
+    font-weight: bolder;
+}
+.oldPrice{
+    color: rgb(37, 34, 34);
+    text-decoration: line-through;
+}
+.cartRate{
+    color:yellow;
 }
