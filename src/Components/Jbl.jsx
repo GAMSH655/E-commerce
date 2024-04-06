@@ -26,7 +26,7 @@ function Jbl(){
              <span  className="time">minutes</span>
            </p>
        </div>
-        <button className="buy">
+        <button className="buyBtn">
          buy now
         </button>
       </div>
