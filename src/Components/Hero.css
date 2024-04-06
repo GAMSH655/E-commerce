@@ -18,10 +18,7 @@ margin-left: 40px;
 .heroImg{
     display: flex;
     justify-content: space-around;
-    background-image: url("../assets//Iphone.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
+    background-color: black;
     line-height: 90px;
     width: 100%;
 }
