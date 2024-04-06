@@ -43,3 +43,18 @@
     border-radius: 10px;
     text-transform: capitalize;
 }
+@media  only screen and (max-width:768px) {
+    .JBlContainer{
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 0px;
+    }
+    .JBlIMG{
+        width: 300px;
+        width: 300px;
+    }
+}
