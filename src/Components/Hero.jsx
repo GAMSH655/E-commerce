@@ -1,5 +1,6 @@
 import "./Hero.css"
 import Iphone from "../assets/Iphone.png"
+import NewPhone from "../assets/Newhone.png"
 function Hero(){
      return (
          <div>
@@ -24,7 +25,7 @@ function Hero(){
                 <p className="up">up to 10%</p>
                 <p className="v">off voucher</p>
                     </div>
-                 <img src={Iphone} alt=""  />
+                 <img src={NewPhone} alt=""  />
             </div>
             </div>
          </div>
