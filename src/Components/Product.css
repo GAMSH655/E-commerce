@@ -41,3 +41,10 @@
 .initialPrice{
     color: #DB4444;
 }
+.rating{
+    color:#FFAD33;
+    padding: 3px;
+}
+.productName{
+    padding: 3px;
+}

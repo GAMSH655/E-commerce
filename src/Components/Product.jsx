@@ -76,15 +76,15 @@ function Product(){
                 return(
                     <div className="productCont">
                         <img src={productList.producImg} alt="" className="productImg" />
-                        <p>{productList.productName}</p>
+                        <p className="productName">{productList.productName}</p>
                         <p> 
                             <span className="initialPrice"><FaDollarSign/> {productList.productPrice}</span>
-                            <span> {productList.productRating}</span>
+                            <span className="rating"> {productList.productRating}</span>
                         </p>
                         <div>
                            
                             <span className="eyeCont">
-                            <FaEye/> br
+                            <FaEye/> <br />
                             <FaHeart/>
                             </span>
                         </div>
