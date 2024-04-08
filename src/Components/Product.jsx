@@ -77,12 +77,15 @@ function Product(){
                     <div className="productCont">
                         <img src={productList.producImg} alt="" className="productImg" />
                         <p>{productList.productName}</p>
-                        <p> <FaDollarSign/> {productList.productPrice}</p>
+                        <p> 
+                            <span className="initialPrice"><FaDollarSign/> {productList.productPrice}</span>
+                            <span> {productList.productRating}</span>
+                        </p>
                         <div>
-                            {productList.productRating}
+                           
                             <span className="eyeCont">
-                               <p> <FaEye/></p>
-                                <p><FaHeart/></p>
+                            <FaEye/> br
+                            <FaHeart/>
                             </span>
                         </div>
                     </div>
