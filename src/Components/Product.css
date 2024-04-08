@@ -1,0 +1,40 @@
+.gridProduct{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    column-gap: 10px;
+    grid-template-rows: repeat(4, 300px);
+    align-items: center;
+}
+
+.gridParentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+.productImg{ 
+    height: 150px;
+    width: 150px;
+}
+.productCont{
+  text-align: center;
+  padding: 8px;
+  background-color: whitesmoke;
+  position: relative;
+}
+.ourProducts{
+    font-size: 2rem;
+    color: #DB4444;
+    padding: 30px;
+    text-transform: capitalize;
+}
+.exploreProducts{
+    font-size: 2.5rem;
+    padding: 30px;
+    text-transform: capitalize;
+}
+.eyeCont{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
