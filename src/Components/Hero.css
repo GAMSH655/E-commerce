@@ -55,6 +55,9 @@ margin-left: 40px;
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: c;
+        position: relative;
+        z-index: -1;
+
    }
    
 .heroImg{
@@ -69,5 +72,8 @@ margin-left: 40px;
  .textBox{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
+ }
+ .Mobinput{
+    margin-top: 5px;
  }
 }

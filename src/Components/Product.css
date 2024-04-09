@@ -9,8 +9,6 @@
 .gridParentContainer{
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 } 
 .productImg{ 
     height: 150px;
@@ -47,4 +45,23 @@
 }
 .productName{
     padding: 3px;
+}
+@media only screen and (max-width:768px) {
+    .gridProduct{
+        display: grid;
+        grid-template-columns: repeat(4, );
+        column-gap: 10px;
+        grid-template-rows: repeat(4, 300px);
+        align-items: center;
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+    }
+    
+    .gridParentContainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    } 
+    
 }
