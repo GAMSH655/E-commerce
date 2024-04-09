@@ -20,7 +20,6 @@ margin-left: 40px;
     justify-content: space-around;
     background-color: black;
     line-height: 90px;
-    width: 100%;
 }
 .hero2{
     font-size: 4em;
@@ -54,7 +53,7 @@ margin-left: 40px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        align-items: c;
+        align-items: center;
         position: relative;
         z-index: -1;
 
@@ -65,7 +64,7 @@ margin-left: 40px;
     justify-content: space-around;
     flex-wrap: wrap;
     line-height: 90px;
-    margin-right: 50px;
+   
     width: 100%;
     text-align: center;
 }
@@ -75,5 +74,9 @@ margin-left: 40px;
  }
  .Mobinput{
     margin-top: 5px;
+ }
+ .heroIphone{
+    height: 300px;
+    width: 300px;
  }
 }

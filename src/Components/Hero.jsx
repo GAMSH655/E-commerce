@@ -25,7 +25,7 @@ function Hero(){
                 <p className="up">up to 10%</p>
                 <p className="v">off voucher</p>
                     </div>
-                 {/* <img src={NewPhone} alt=""  /> */}
+                 <img src={NewPhone} alt="" className="heroIphone" />
             </div>
             </div>
          </div>
