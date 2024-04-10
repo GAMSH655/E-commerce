@@ -4,7 +4,8 @@ import Hero from "../Components/Hero"
 import Categ from "../Components/Categories"
 import Jbl from "../Components/Jbl"
 import Product from "../Components/Product"
-
+import Newarrival from "../Components/Newarrival"
+import Footer from "../Components/Footer"
 function Home(){
     return(
          <>
@@ -14,6 +15,8 @@ function Home(){
            <Categ />
            <Jbl />
            <Product />
+           <Newarrival/>
+           <Footer/>
          </>
     )
 }export default Home

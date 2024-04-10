@@ -49,8 +49,8 @@ function Header(){
                                   <NavLink to="/contact" className="MobileLink">Contact<FaPhone  className="mobIcon"/> </NavLink>
                                   <NavLink to="/about" className="MobileLink">About<FaUser  className="mobIcon"/> </NavLink>
                                   <NavLink to="/sign" className="MobileLink">Sign up <FaFile  className="mobIcon" /></NavLink>
-                            </div>
-            )}
+                            </div> 
+             )}
             </div>
     )
 }export default Header

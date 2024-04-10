@@ -1,0 +1,77 @@
+.flexParentContainer{
+ margin-left: 90px;
+}
+.innerFlexContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flexme{
+    width: 500px;
+}
+.flexContainer{
+    display: flex;
+    width: 600px;
+}
+.flexBox1{
+    background-color: black;
+    color: white;
+    position: relative;
+}
+.flexBox3{
+    padding: 10px;
+    background-color: black;
+    margin: 15px;
+    color: white;
+    position: relative;
+}
+.flexBox4{
+    padding: 10px;
+    background-color: black;
+    margin: 15px;
+    color: white;
+    position: relative;
+}
+
+.flexBox2{
+    padding: 10px;
+    background-color: black;
+    margin: 15px;
+    color: white;
+    position: relative;
+}
+.prodName{
+    font-size: 1.5rem;
+    font-family: fira sans;
+    padding: 5px;
+    position: absolute;
+    bottom: 100px;
+}
+.productDesc{
+    font-size: 1rem;
+    font-family: fira sans;
+    padding: 5px;
+    position: absolute;
+    bottom: 60px;
+}
+.shop{
+    font-size: 1rem;
+    font-family: fira sans;
+    padding: 5px;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 20px;
+    font-weight: bold;
+}
+.featured{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:#DB4444;
+    padding: 20px;
+    text-transform: capitalize;
+}
+.newArrival{
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 20px;
+    text-transform: capitalize;
+}

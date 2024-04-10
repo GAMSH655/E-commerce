@@ -6,8 +6,6 @@ import { Routes } from 'react-router-dom'
 import SignIN from "../src/Pages/Sign"
 import LogIn from "../src/Pages/Login"
 import About from "../src/Pages/About"
-
-
 function App() {
 
   return (
@@ -20,6 +18,7 @@ function App() {
               <Route path='/About' element={ <About/>} />
           </Routes>
         </BrowserRouter>
+       
     </>
   )
 }
