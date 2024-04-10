@@ -18,7 +18,7 @@ function Newarrival(){
               <div  className="flexContainer">
                     
                     <div className="flexBox1">
-                        <img src={psp} alt="" />
+                        <img src={psp} alt=""  className="ps"/>
                         <h3 className="prodName">play station 5</h3>
                         <p className="productDesc">Black and White version of the PS5 coming out on sale.</p>
                         <p className="shop">shop now</p>
@@ -26,30 +26,33 @@ function Newarrival(){
 
 
                     <div className="flexme">
-                    
+                   
                     <div className="flexBox2">
-                    <img src={Hatewoman} alt=""  className="gridImg"/>
+                    <img src={Hatewoman} alt="" className="ps"/>
                     <h3 className="prodName">women's collection</h3>
                         <p className="productDesc">Black and White version of the PS5 coming out on sale.</p>
                         <p className="shop">shop now</p>
                     </div>
-
+                    
                     <div className="innerFlexContainer">
+                   <div className="flexBox3">
+                           <img src={Speaker} alt="" />
+                           <h3 className="prodName">speaker</h3>
+                       <p className="productDesc">Black and White version of the PS5 coming out on sale.</p>
+                       <p className="shop">shop now</p>
+                   </div>
+                  
+                   <div className="flexBox4">
+                         <img src={Perfume} alt="" />
+                         <h3 className="prodName">Perfume</h3>
+                       <p className="productDesc">Black and White version of the PS5 coming out on sale.</p>
+                       <p className="shop">shop now</p>
+                   </div>
+                   </div>
+                    
+                    </div>
                    
-                    <div className="flexBox3">
-                            <img src={Speaker} alt="" />
-                            <h3 className="prodName">speaker</h3>
-                        <p className="productDesc">Black and White version of the PS5 coming out on sale.</p>
-                        <p className="shop">shop now</p>
-                    </div>
-                    <div className="flexBox4">
-                          <img src={Perfume} alt="" />
-                          <h3 className="prodName">Perfume</h3>
-                        <p className="productDesc">Black and White version of the PS5 coming out on sale.</p>
-                        <p className="shop">shop now</p>
-                    </div>
-                    </div>
-                    </div>
+                   
               </div>
          </div>
          <div className="iconCont">

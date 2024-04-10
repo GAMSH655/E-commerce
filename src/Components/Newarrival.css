@@ -8,10 +8,11 @@
 .flexme{
     width: 500px;
 }
+
 .flexContainer{
     display: flex;
-    width: 600px;
-}
+    /* width: 600px; */
+} 
 .flexBox1{
     background-color: black;
     color: white;
@@ -35,9 +36,9 @@
 .flexBox2{
     padding: 10px;
     background-color: black;
-    margin: 15px;
     color: white;
     position: relative;
+    margin: 20px;
 }
 .prodName{
     font-size: 1.5rem;
@@ -74,4 +75,46 @@
     font-size: 2rem;
     padding: 20px;
     text-transform: capitalize;
+}
+@media only screen and (max-width:768px){
+    .flexParentContainer{
+ margin-left: 0px;
+}
+.innerFlexContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.flexme{
+    /* width: 500px; */
+}
+
+.flexContainer{
+    display: flex;
+    /* width: 600px; */
+    flex-wrap: wrap;
+} 
+.flexBox1{
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 100%;
+margin: 20px;
+}
+.flexBox3{
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 100%;
+}
+.flexBox4{
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 100%;
+}
+.ps{
+    width: 300px;
+    height: 300px;
+}
 }
