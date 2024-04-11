@@ -37,6 +37,10 @@ function Contact(){
                  </p>
              </div>
              <div className="gridCont2">
+               <input type="text"  placeholder="your name" className="contactInput"/>
+               <input type="email"  placeholder="your mail"  className="contactInput"/>
+               <input type="number"  placeholder="your number"  className="contactInput"/>
+              <textarea placeholder="enter your message here"></textarea>
              </div>
            </div>
         </div>
