@@ -13,23 +13,22 @@
     grid-row-start: 1;
     grid-row-end: 4;
     padding: 20px;
-    box-shadow: 1px 5px 10px 1px black;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.116);
 }
 
 .gridCont2{
-    background-color:rebeccapurple;
     grid-column-start:3;
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 4;
-    box-shadow: 1px 5px 10px 1px black;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.116);
+    position: relative;
 }
 .mobile{
     background-color:#DB4444;
     padding: 5px;
     transform: rotateY(200deg);
     border-radius: 50%;
-    margin-top: ;
 }
 .phoneNumber{
     display: block;
@@ -61,10 +60,29 @@
 }
 .contactInput{
     margin: 30px;
-    /* margin-left: 0cap; */
     padding: 12px;
     width: 190px;
     border-radius: 10px;
     border: none;
     outline: none;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.452);
+}
+textarea{
+    margin: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.589);
+    padding: 10px;
+}
+.sendMEssageBTn{
+    color: white;
+    width: 150px;
+    padding: 9px;
+    background-color: #DB4444;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
 }

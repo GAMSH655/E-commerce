@@ -2,6 +2,7 @@ import "../Components/Contact.css"
 import Header from "../Components/Header"
 import { FaPhone } from "react-icons/fa"
 import { FaEnvelope } from "react-icons/fa"
+import Footer from "../Components/Footer"
 function Contact(){
      return(
         <div>
@@ -40,9 +41,13 @@ function Contact(){
                <input type="text"  placeholder="your name" className="contactInput"/>
                <input type="email"  placeholder="your mail"  className="contactInput"/>
                <input type="number"  placeholder="your number"  className="contactInput"/>
-              <textarea placeholder="enter your message here"></textarea>
+              {/* <textarea placeholder="enter your message here"></textarea> */}
+              <button className="sendMEssageBTn">
+              send message
+              </button>
              </div>
            </div>
+            <Footer/>
         </div>
      )
 }export default Contact 
