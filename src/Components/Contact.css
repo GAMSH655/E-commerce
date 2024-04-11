@@ -1,0 +1,44 @@
+.GridContainer{
+    display: grid;
+    grid-template-columns: repeat(2 ,200px);
+    grid-template-rows: repeat(2 ,200px);
+    /* background-color: #ff67ff; */
+    gap: 30px;
+    margin: 30px;
+}
+.gridCont1{
+    /* background-color: red; */
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    padding: 20px;
+    box-shadow: 1px 5px 10px 1px black;
+}
+
+.gridCont2{
+    background-color:rebeccapurple;
+    grid-column-start:2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    box-shadow: 1px 5px 10px 1px black;
+}
+.mobile{
+    background-color:#DB4444;
+    padding: 5px;
+    transform: rotateY(200deg);
+    border-radius: 50%;
+    margin-top: ;
+}
+.available{
+    padding: 10px;
+    line-height: 30px;
+}
+.phoneNumber{
+    padding: 10px;
+    line-height: 30px;
+}
+.underLinediv{
+   border-bottom: 1.2px solid black;
+}

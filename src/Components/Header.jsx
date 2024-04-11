@@ -5,7 +5,7 @@ import { FaBars } from "react-icons/fa"
 import { useState } from "react"
 
 function Header(){
-    const [isOpen , setIsOpen] = useState(true)
+    const [isOpen , setIsOpen] = useState(false)
 
     function handClick(){
         setIsOpen(!isOpen)
