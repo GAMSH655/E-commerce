@@ -43,7 +43,7 @@ function Contact(){
                <input type="email"  placeholder="your mail"  className="contactInput"/>
                <input type="number"  placeholder="your number"  className="contactInput"/>
               
-              {/* <textarea placeholder="enter your message here"></textarea> */}
+              <textarea placeholder="enter your message here"></textarea>
               <button className="sendMEssageBTn">
               send message
               </button>

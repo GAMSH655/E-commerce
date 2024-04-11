@@ -60,20 +60,21 @@
     padding-top: 30px;;
 }
 .contactInput{
-    margin: 30px;
+    margin-top: 20px;
+    margin-right:20px ;
     padding: 12px;
-    width: 190px;
+    width: 100%;
     border-radius: 10px;
     border: none;
     outline: none;
-    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.452);
+    background-color: #F5F5F5;
 }
 textarea{
     margin: 20px;
     border: none;
     outline: none;
-    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.589);
     padding: 10px;
+    background-color: #F5F5F5;
 }
 .sendMEssageBTn{
     color: white;
@@ -123,9 +124,9 @@ textarea{
         border-radius: 10px;
         border: none;
         outline: none;
-        box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.452);
+        background-color: #F5F5F5;
     }
     form{
-        padding: 10px;
+
     }
 }
