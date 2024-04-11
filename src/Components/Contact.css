@@ -1,6 +1,6 @@
 .GridContainer{
     display: grid;
-    grid-template-columns: repeat(2 ,200px);
+    grid-template-columns: repeat(2 ,150px);
     grid-template-rows: repeat(2 ,200px);
     /* background-color: #ff67ff; */
     gap: 30px;
@@ -9,7 +9,7 @@
 .gridCont1{
     /* background-color: red; */
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 4;
     padding: 20px;
@@ -18,7 +18,7 @@
 
 .gridCont2{
     background-color:rebeccapurple;
-    grid-column-start:2;
+    grid-column-start:3;
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 4;
@@ -31,6 +31,9 @@
     border-radius: 50%;
     margin-top: ;
 }
+.phoneNumber{
+    display: block;
+}
 .available{
     padding: 10px;
     line-height: 30px;
@@ -41,4 +44,18 @@
 }
 .underLinediv{
    border-bottom: 1.2px solid black;
+}
+.envIcon{
+    background-color:#DB4444;
+    padding: 5px;
+    transform: rotateY(200deg);
+    border-radius: 50%;
+    margin-top: 4px;
+}
+.envlope{
+    margin-top: 10px;
+    padding: 5px;
+}
+.fill , .email{
+    padding-top: 10px;;
 }
