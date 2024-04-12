@@ -1,0 +1,14 @@
+.errorTExt{
+    font-size: 5rem;
+    font-family:sans-serif ;
+    text-align: center;
+    padding: 30px;
+}
+.errorTExtbox{
+    margin: 100px;
+    text-align: center;
+    padding: 50px;
+}
+.errr{
+    padding: 40px;
+}
