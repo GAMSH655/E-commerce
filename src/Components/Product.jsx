@@ -72,9 +72,9 @@ function Product(){
        <div className="gridParentContainer">
        <div className="gridProduct">
         {
-            ProductArray.map((productList)=>{
+            ProductArray.map((productList , index)=>{
                 return(
-                    <div className="productCont" key={productList.id} > 
+                    <div className="productCont" key={index} > 
                      key={productList.id}
                         <img src={productList.producImg} alt="" className="productImg" />
                         <p className="productName">{productList.productName}</p>

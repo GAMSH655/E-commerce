@@ -48,9 +48,8 @@ function Flash(){
                  </div>
                <div className="mm">
                {
-                   Items.map((goodd)=>{
-                     
-                     return(<div className="eachItem">
+                   Items.map((goodd , index)=>{
+                     return(<div key={index} className="eachItem">
                          <img src={goodd.img} alt=""  className="goodImg"/>
                             <p className="tagName">{goodd.itemTag}</p>
                             <p className="tagName">${goodd.itemPrice} </p>
