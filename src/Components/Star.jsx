@@ -6,7 +6,6 @@ const Star = ({maxRating = 5}) => {
         display:"flex",
         alignItems:"center",
         gap:"16px",
-        backgroundColor:"red"
     }
     const starContainerStyle ={
         display:"flex",
@@ -19,11 +18,14 @@ const Star = ({maxRating = 5}) => {
        {
         Array.from({length:maxRating}, (_ , i)=>{
             return <div style={starContainerStyle}>
-                <FaStar/>
+                <FaStar key={i} onClick={()=>setStar(i + 1)}
+                style={{ color :i < star ?  "FFAD33" : ""}}
+                // {   i > star ? " bad market 😒🥗" : " good market"}
+                />
             </div>
         })
        }
-           <p>(10)</p>
+           <p>({star || "" })</p>
     </div>
   )
 }

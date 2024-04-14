@@ -6,6 +6,7 @@ import Chair from "../assets/Chair.png"
 import {FaHeart} from "react-icons/fa"
 import { FaEye } from "react-icons/fa"
 import { FaStar } from "react-icons/fa"
+import Star from "../Components/Star"
 function Flash(){
     const Items = [
        { id :1,
@@ -58,16 +59,7 @@ function Flash(){
                               <p> <FaEye className="ic" /></p>
                               <p className="percenTage">40%</p>
                             </div>
-                             <div className="starIcon">
-                               <FaStar className="star"/>
-                               <FaStar className="star"/>
-                               <FaStar className="star"/>
-                               <FaStar className="star"/>
-                               <FaStar /> 
-                               <span className="starText">
-                                 (88)
-                               </span>
-                             </div>
+                             <Star/>
                              <button className="buy">add to cart</button>
                         </div>
                      )

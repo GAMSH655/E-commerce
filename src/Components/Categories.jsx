@@ -8,6 +8,7 @@ import { FaDollarSign } from "react-icons/fa"
 import { FaHeart } from "react-icons/fa"
 import { FaEye } from "react-icons/fa"
 import { useState } from "react"
+import Star from "../Components/Star"
 function Categ(){
       const [active , setActive] = useState(false)
        const ToggleColor = () =>{
@@ -61,13 +62,14 @@ function Categ(){
                                <p className="cartPrice"> <FaDollarSign />
                                    {cartItem.cartPrice} <span className="oldPrice">($2000)</span>
                                </p>
-                               <div className="rateIcon" >
+                               {/* <div className="rateIcon" >
                                 <p    onClick={ToggleColor} > <FaStar className={`cartRate ${active ? "activeColor" : ""}`} /></p>
                                 <p    onClick={ToggleColor} > <FaStar className={`cartRate ${active ? "activeColor" : ""}`} /></p>
                                 <p    onClick={ToggleColor} > <FaStar className={`cartRate ${active ? "activeColor" : ""}`} /></p>
                                 <p    onClick={ToggleColor} > <FaStar className={`cartRate ${active ? "activeColor" : ""}`} /></p>
                                 <p    onClick={ToggleColor} > <FaStar className={`cartRate ${active ? "activeColor" : ""}`} /></p>
-                               </div>
+                               </div> */}
+                                 <Star maxRating = {5} />
                                <span className="icons">
                                <p>  <FaEye/> </p>
                                 <p> <FaHeart/> </p>
