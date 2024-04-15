@@ -11,3 +11,14 @@
     border: none;
     outline: none;
 }
+.billingProduct{
+    display: flex;
+    justify-content: space-between;
+}
+.pName ,priceBill{
+    padding: 5px;
+}
+.gm{
+    height: 50px;
+    width: 50px;
+}

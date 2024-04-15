@@ -1,11 +1,11 @@
 import React from 'react'
 import Header from "../Components/Header"
 import "../Components/Billing.css"
+import Gamepad from "../assets/Gamepad.png"
 const Billing = () => {
   return (
     <div>
         <Header />
-
         <h3 className="billinDetails">billing detail </h3>
         <div className="billingFormContainer">
              <form action="">
@@ -34,6 +34,14 @@ const Billing = () => {
                <input type="checkbox"className='radio' />
                <label htmlFor="Save this information for faster check-out next time" > Save this information for faster check-out next time</label>
              </form>
+        </div>
+            <div className="billingProduct">
+                <img src={Gamepad} alt="" className='gm' />
+                <h3 className="pName">GAming pad</h3>
+                <h3 className="priceBill">$400</h3>
+            </div>
+        <div className="billingDetails">
+
         </div>
         </div>
   )
