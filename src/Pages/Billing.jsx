@@ -64,10 +64,14 @@ const Billing = () => {
             </div>
             <img src={BankCard} alt="" />
             </div>
-            <input type="radio"className='radio' />
+            <input type="radio"className='rad'/>
              <label htmlFor="cash on delivery" >cash on delivery
              </label>
         </div>
+         <div>
+             <button className='couponBtn'>coupon code</button>
+             <button className='applyCoupon'>apply coupon</button>
+         </div>
         </div>
         </div>
   )

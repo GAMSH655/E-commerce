@@ -28,3 +28,18 @@
     border-bottom: 2px solid black;
     padding: 5px;
 }
+.couponBtn ,.applyCoupon{
+    width: 150px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+   
+}
+.couponBtn:hover ,.applyCoupon:hover{
+    background-color: #DB4444;
+    transition: .5s all ease-in;
+}
+.rad , .radio{
+    margin:8px;
+}
