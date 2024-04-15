@@ -1,5 +1,4 @@
 .name{
-    color:red;
     font-size: 15px;
     font-weight: 100;
     margin: 5px;
@@ -17,8 +16,15 @@
 }
 .pName ,priceBill{
     padding: 5px;
+    text-transform: capitalize;
 }
 .gm{
     height: 50px;
     width: 50px;
+}
+.subt ,.shippingCont{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding: 5px;
 }

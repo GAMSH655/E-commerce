@@ -1,7 +1,8 @@
 import React from 'react'
 import Header from "../Components/Header"
-import "../Components/Billing.css"
+import "../Components/BIlling.css"
 import Gamepad from "../assets/Gamepad.png"
+import Tv from "../assets/Tv.png"
 const Billing = () => {
   return (
     <div>
@@ -37,11 +38,25 @@ const Billing = () => {
         </div>
             <div className="billingProduct">
                 <img src={Gamepad} alt="" className='gm' />
-                <h3 className="pName">GAming pad</h3>
+                <h3 className="pName">Gaming pad</h3>
+                <h3 className="priceBill">$400</h3>
+            </div>
+            <div className="billingProduct">
+                <img src={Tv} alt="" className='gm' />
+                <h3 className="pName">led tv</h3>
                 <h3 className="priceBill">$400</h3>
             </div>
         <div className="billingDetails">
-
+        <div className="amountCont">
+            <div className="subt">
+                 <p className="sub">subtotal:</p>
+                 <p className="sub">$800</p>
+            </div>
+            <div className="shippingCont">
+            <p className="shipping">shipping</p>
+                 <p className="sub">free</p>
+            </div>
+        </div>
         </div>
         </div>
   )
