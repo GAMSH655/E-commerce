@@ -4,6 +4,7 @@ import "../Components/BIlling.css"
 import Gamepad from "../assets/Gamepad.png"
 import Tv from "../assets/Tv.png"
 import BankCard from "../assets/BankCard.png"
+import Footer from "../Components/Footer"
 const Billing = () => {
   return (
     <div>
@@ -78,6 +79,7 @@ const Billing = () => {
         </div>
            </div>
          </div>
+         <Footer/>
         </div>
   )
 }
