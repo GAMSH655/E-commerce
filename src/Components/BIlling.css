@@ -1,0 +1,13 @@
+.name{
+    color:red;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 5px;
+}
+.billing_input{
+    width: 100%;
+    padding: 10px;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+}
