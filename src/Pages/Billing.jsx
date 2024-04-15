@@ -38,7 +38,7 @@ const Billing = () => {
                <label htmlFor="Save this information for faster check-out next time" > Save this information for faster check-out next time</label>
              </form>
         </div>
-           <div>
+           <div className='sidContainer'>
            <div className="billingProduct">
                 <img src={Gamepad} alt="" className='gm' />
                 <h3 className="pName">Gaming pad</h3>

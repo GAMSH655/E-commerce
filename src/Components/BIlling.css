@@ -17,6 +17,7 @@
 .pName ,priceBill{
     padding: 5px;
     text-transform: capitalize;
+    padding: 5px;
 }
 .gm{
     height: 50px;
@@ -26,10 +27,10 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid black;
-    padding: 5px;
+    padding: 15px;
 }
 .couponBtn ,.applyCoupon{
-    width: 150px;
+    width: 100%;
     border: none;
     outline: none;
     padding: 10px;
@@ -51,8 +52,21 @@
 .coupCont{
     display: flex;
     justify-content:space-between;
+    padding: 10px;
 }
 .parentBillingContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.sidContainer{
+    margin-right: 150px;
+}
+@media only screen and(max-width:768px) {
+    .parentBillingContainer{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: red;
+    }
 }
