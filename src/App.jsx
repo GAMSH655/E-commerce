@@ -8,10 +8,13 @@ import LogIn from "../src/Pages/Login"
 import About from "../src/Pages/About"
 import Contact from "../src/Pages/Contact"
 import Error from "../src/Pages/Error"
+import Billing from "../src/Pages/Billing"
+import Header from './Components/Header'
 function App() {
 
   return (
     <>
+        {/* <Header/> */}
          <BrowserRouter>
           <Routes>
               <Route path='/' element={ <Home />} />
@@ -20,6 +23,7 @@ function App() {
               <Route path='/About' element={ <About/>} />
               <Route path='/Contact' element={ <Contact/>} />
               <Route path='*' element={ <Error/>} />
+              <Route path='/Billing' element={ <Billing />}  />
           </Routes>
         </BrowserRouter>
        
