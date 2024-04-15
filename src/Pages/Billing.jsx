@@ -3,6 +3,7 @@ import Header from "../Components/Header"
 import "../Components/BIlling.css"
 import Gamepad from "../assets/Gamepad.png"
 import Tv from "../assets/Tv.png"
+import BankCard from "../assets/BankCard.png"
 const Billing = () => {
   return (
     <div>
@@ -54,8 +55,18 @@ const Billing = () => {
             </div>
             <div className="shippingCont">
             <p className="shipping">shipping</p>
-                 <p className="sub">free</p>
+            <p className="sub">free</p>
             </div>
+            <div className="shippingCont">
+            <div>
+            <input type="radio"className='radio' />
+             <label htmlFor="bank" > bank</label>
+            </div>
+            <img src={BankCard} alt="" />
+            </div>
+            <input type="radio"className='radio' />
+             <label htmlFor="cash on delivery" >cash on delivery
+             </label>
         </div>
         </div>
         </div>
