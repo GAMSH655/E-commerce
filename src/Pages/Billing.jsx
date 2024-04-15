@@ -9,7 +9,8 @@ const Billing = () => {
     <div>
         <Header />
         <h3 className="billinDetails">billing detail </h3>
-        <div className="billingFormContainer">
+         <div className="parentBillingContainer">
+         <div className="billingFormContainer">
              <form action="">
                 <h3 className="name">first name</h3>
                 <input type="text" className='billing_input' />
@@ -37,7 +38,8 @@ const Billing = () => {
                <label htmlFor="Save this information for faster check-out next time" > Save this information for faster check-out next time</label>
              </form>
         </div>
-            <div className="billingProduct">
+           <div>
+           <div className="billingProduct">
                 <img src={Gamepad} alt="" className='gm' />
                 <h3 className="pName">Gaming pad</h3>
                 <h3 className="priceBill">$400</h3>
@@ -68,11 +70,14 @@ const Billing = () => {
              <label htmlFor="cash on delivery" >cash on delivery
              </label>
         </div>
-         <div>
-             <button className='couponBtn'>coupon code</button>
+         <div className='coupCont'>
+             <div className='couponDiv'>coupon code</div>
              <button className='applyCoupon'>apply coupon</button>
          </div>
+         <button className='applyCoupon'>place order</button>
         </div>
+           </div>
+         </div>
         </div>
   )
 }

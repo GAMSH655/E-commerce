@@ -34,7 +34,12 @@
     outline: none;
     padding: 10px;
     margin: 10px;
-   
+}
+.couponDiv{
+    width: 100%;
+    border:1.5px solid black;
+    padding: 10px;
+    margin: 10px;
 }
 .couponBtn:hover ,.applyCoupon:hover{
     background-color: #DB4444;
@@ -42,4 +47,12 @@
 }
 .rad , .radio{
     margin:8px;
+}
+.coupCont{
+    display: flex;
+    justify-content:space-between;
+}
+.parentBillingContainer{
+    display: flex;
+    justify-content: space-between;
 }
