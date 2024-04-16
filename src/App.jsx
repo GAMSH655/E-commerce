@@ -10,6 +10,7 @@ import Contact from "../src/Pages/Contact"
 import Error from "../src/Pages/Error"
 import Billing from "../src/Pages/Billing"
 import Header from './Components/Header'
+import Myaccount from "../src/Pages/Myaccount"
 function App() {
 
   return (
@@ -24,6 +25,7 @@ function App() {
               <Route path='/Contact' element={ <Contact/>} />
               <Route path='*' element={ <Error/>} />
               <Route path='/Billing' element={ <Billing />}  />
+              <Route path="/myaccount" element={<Myaccount/>}/>
           </Routes>
         </BrowserRouter>
        

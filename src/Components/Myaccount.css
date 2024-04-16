@@ -1,0 +1,41 @@
+.My_account_container{
+    display: flex;
+    justify-content: space-around;
+}
+.manage{
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.profile{
+    margin: 15px;
+    text-transform: capitalize;
+}
+.accountDetailsContainer{
+    margin: 15px;
+}
+.edit{
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.asideFormContainer{
+    background-color: green;
+    width: 60%;
+}
+.inputContainer{
+    display: flex;
+    background-color: red;
+}
+.FNameInnput{
+    width: 100%;
+    padding: 8px;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+}
+.inp1 , .inp2{
+    margin: 15px;
+}
+.FName ,.LName{
+    font-weight: normal;
+    font-size: 1.2rem;
+}
