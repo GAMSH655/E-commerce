@@ -22,6 +22,7 @@
     width: 60%;
     box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.116);
     margin: 20px;
+    padding: 20px;
 }
 .inputContainer{
     display: flex;
@@ -40,5 +41,28 @@
 .FName ,.LName{
     font-weight: normal;
     font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.accoutBtn{
+    border: none;
+    outline: none;
+    position: absolute;
+    background-color:#DB4444;
+    padding: 10px;
+    right: 20px;
+    margin-top: 10px;
+    width: 150px;
+    text-transform: capitalize;
+}
+.secondForm{
+    position: relative;
+}
+.passwordInput{
+    width: 100%;
+    padding: 10px;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+    margin: 20px;
     text-transform: capitalize;
 }

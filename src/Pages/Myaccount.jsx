@@ -32,7 +32,7 @@ const Myacclount = () => {
              <h3 className="edit">
                  edit your profile
              </h3>
-              <form action="">
+              <form action="" className="secondForm">
                 <div className="inputContainer">
                 <div className="inp1">
                 <h3 className="FName">last name</h3>
@@ -53,7 +53,11 @@ const Myacclount = () => {
                 <input type="text"  className="FNameInnput"/>
                 </div>
                 </div>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                 <h3 className="pass">pasword chanages</h3>
+                 <input type="passowrd" className="passwordInput" placeholder="currentpassword"/> <br />
+                 <input type="password" className="passwordInput" placeholder="new password" /> <br />
+                 <input type="password" className="passwordInput"  placeholder="confirm new password"/>
+                <button className="accoutBtn">save changes</button>
               </form>
            </div>
      </div>
