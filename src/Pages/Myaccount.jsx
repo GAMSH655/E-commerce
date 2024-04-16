@@ -1,8 +1,13 @@
 import "../Components/Myaccount.css"
 import Header from "../Components/Header"
 import React from 'react'
-
+import { useState } from "react"
 const Myacclount = () => {
+    const [showinfo , setshowinfo] = useState(false)
+   
+    // const handleShowInfo(){
+
+    // }
   return (
     <div>
         <Header />
@@ -28,6 +33,7 @@ const Myacclount = () => {
              <p className="profile">my payment option</p>
            </div>
            </div>
+           { showinfo &&(
            <div className="asideFormContainer">
              <h3 className="edit">
                  edit your profile
@@ -59,7 +65,8 @@ const Myacclount = () => {
                  <input type="password" className="passwordInput"  placeholder="confirm new password"/>
                 <button className="accoutBtn">save changes</button>
               </form>
-           </div>
+           </div>)
+           }
      </div>
     </div>
   )
