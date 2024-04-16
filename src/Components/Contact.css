@@ -2,12 +2,10 @@
     display: grid;
     grid-template-columns: repeat(2 ,150px);
     grid-template-rows: repeat(2 ,200px);
-    /* background-color: #ff67ff; */
     gap: 30px;
     margin: 30px;
 }
 .gridCont1{
-    /* background-color: red; */
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -128,8 +126,5 @@ textarea{
         border: none;
         outline: none;
         background-color: #F5F5F5;
-    }
-    form{
-
     }
 }

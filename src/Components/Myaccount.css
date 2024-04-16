@@ -16,21 +16,23 @@
 .edit{
     font-weight: normal;
     text-transform: capitalize;
+    margin: 20px;
 }
 .asideFormContainer{
-    background-color: green;
     width: 60%;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.116);
+    margin: 20px;
 }
 .inputContainer{
     display: flex;
-    background-color: red;
 }
 .FNameInnput{
-    width: 100%;
-    padding: 8px;
+    width: 270px;
+    padding: 10px;
     background-color: #F5F5F5;
     border: none;
     outline: none;
+    margin-top: 5px;
 }
 .inp1 , .inp2{
     margin: 15px;
@@ -38,4 +40,5 @@
 .FName ,.LName{
     font-weight: normal;
     font-size: 1.2rem;
+    text-transform: capitalize;
 }

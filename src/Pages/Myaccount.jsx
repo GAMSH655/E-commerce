@@ -43,6 +43,17 @@ const Myacclount = () => {
                 <input type="text"  className="FNameInnput"/>
                 </div>
                 </div>
+                <div className="inputContainer">
+                <div className="inp1">
+                <h3 className="FName">email</h3>
+                <input type="email" className="FNameInnput" />
+                </div>
+                <div className="inp2">
+                <h3 className="LName">address</h3>
+                <input type="text"  className="FNameInnput"/>
+                </div>
+                </div>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
               </form>
            </div>
      </div>
