@@ -5,18 +5,18 @@ import { useState } from "react"
 const Myacclount = () => {
     const [showinfo , setshowinfo] = useState(false)
    
-    // const handleShowInfo(){
-
-    // }
+    const handleShowInfo=()=>{
+        setshowinfo(!showinfo)
+    }
   return (
     <div>
         <Header />
 
      <div className="My_account_container">
-           <div>
+           <div className="sided">
            <div className="accountDetailsContainer">
            <h3 className="manage">manage my account</h3>
-             <p className="profile"> my profile</p>
+             <p className={`profile ${showinfo ? "showed" : ""}`} onClick={handleShowInfo}> my profile</p>
              <p className="profile">address book </p>
              <p className="profile">my payment option</p>
            </div>
@@ -59,7 +59,7 @@ const Myacclount = () => {
                 <input type="text"  className="FNameInnput"/>
                 </div>
                 </div>
-                 <h3 className="pass">pasword chanages</h3>
+                 <h3 className="pass">pasword changes</h3>
                  <input type="passowrd" className="passwordInput" placeholder="currentpassword"/> <br />
                  <input type="password" className="passwordInput" placeholder="new password" /> <br />
                  <input type="password" className="passwordInput"  placeholder="confirm new password"/>

@@ -1,6 +1,7 @@
 .My_account_container{
     display: flex;
     justify-content: space-around;
+    position: absolute;
 }
 .manage{
     font-weight: normal;
@@ -23,7 +24,17 @@
     box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.116);
     margin: 20px;
     padding: 20px;
+    position: relative;
+    left: 20px;
+
+    animation-name: aside;
+    animation-duration: .5s;
 }
+ @keyframes aside {
+    0%{
+        transform: translateX(150px);
+    }
+ }
 .inputContainer{
     display: flex;
 }
@@ -37,6 +48,8 @@
 }
 .inp1 , .inp2{
     margin: 15px;
+    position: relative;
+    right: 55px;
 }
 .FName ,.LName{
     font-weight: normal;
@@ -65,4 +78,12 @@
     outline: none;
     margin: 20px;
     text-transform: capitalize;
+}
+.showed{
+    color: #DB4444;
+    transform: translateX(50px);
+}
+.sided{
+    position: sticky;
+   left: 10px;
 }
