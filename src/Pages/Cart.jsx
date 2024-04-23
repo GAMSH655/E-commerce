@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Header from '../Components/Header'
 export const Cart = () => {
   return (
-    <div>Cart</div>
+    <div>
+      <Header/>
+      </div>
   )
 }
 export default Cart

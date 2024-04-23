@@ -26,7 +26,7 @@ function Header(){
               <input type="" placeholder="what are looking for " className="input"/><i className="fa-solid fa-magnifying-glass "></i>
               </span>
              <i className="fa-solid fa-heart"></i>
-             <navlink to="/cart"> <i className="fa-solid fa-cart-shopping"></i></navlink>
+             <NavLink to="/cart"> <i className="fa-solid fa-cart-shopping"></i></NavLink>
              </div>
          </div>
              {/* mobileHeader */}
@@ -43,7 +43,7 @@ function Header(){
                          <div className="MobileNavcontainer">
                          <div className="searchContainer">
                              <i className="fa-solid fa-heart"></i>
-                             <i className="fa-solid fa-cart-shopping"></i>
+                             <NavLink to="/cart"> <i className="fa-solid fa-cart-shopping"></i></NavLink>
                              </div>
                                  <NavLink to ="/" className="MobileLink" >home <FaHome className="mobIcon"/> </NavLink>
                                   <NavLink to="/contact" className="MobileLink">Contact<FaPhone  className="mobIcon"/> </NavLink>

@@ -9,7 +9,7 @@ import Footer from "../Components/Footer"
 function Home(){
     return(
          <>
-           <Header  />
+           <Header/>
            <Hero />
            <Flash />
            <Categ />
