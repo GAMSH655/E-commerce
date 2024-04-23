@@ -5,7 +5,6 @@ import Keyboard from "../assets/Keyboard.png"
 import Chair from "../assets/Chair.png"
 import {FaHeart} from "react-icons/fa"
 import { FaEye } from "react-icons/fa"
-import { FaStar } from "react-icons/fa"
 import Star from "../Components/Star"
 function Flash(){
     const Items = [

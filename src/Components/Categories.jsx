@@ -57,7 +57,7 @@ function Categ(){
                      catItem.map((cartItem , index)=>{
                          return(
                               <div key={index}className="cartCont">
-                               <img src={cartItem.catImg}alt="" className="gm" />  
+                               <img src={cartItem.catImg}alt="" className="vm" />  
                                <p className="cartName"> {cartItem.catName}</p>
                                <p className="cartPrice"> <FaDollarSign />
                                    {cartItem.cartPrice} <span className="oldPrice">($2000)</span>

@@ -11,6 +11,7 @@ import Error from "../src/Pages/Error"
 import Billing from "../src/Pages/Billing"
 import Header from './Components/Header'
 import Myaccount from "../src/Pages/Myaccount"
+import Cart from "../src/Pages/Cart"
 function App() {
 
   return (
@@ -26,6 +27,7 @@ function App() {
               <Route path='*' element={ <Error/>} />
               <Route path='/Billing' element={ <Billing />}  />
               <Route path="/myaccount" element={<Myaccount/>}/>
+              <Route path='/Cart' element={<Cart/>} />
           </Routes>
         </BrowserRouter>
        

@@ -26,7 +26,7 @@ function Header(){
               <input type="" placeholder="what are looking for " className="input"/><i className="fa-solid fa-magnifying-glass "></i>
               </span>
              <i className="fa-solid fa-heart"></i>
-             <i className="fa-solid fa-cart-shopping"></i>
+             <navlink to="/cart"> <i className="fa-solid fa-cart-shopping"></i></navlink>
              </div>
          </div>
              {/* mobileHeader */}
