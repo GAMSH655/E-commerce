@@ -12,6 +12,7 @@ import { FaDollarSign } from "react-icons/fa"
 import { FaHeart } from "react-icons/fa"
 import { FaEye } from "react-icons/fa"
 import Star from "../Components/Star"
+import { useContext } from "react"
 function Product(){
     const ProductArray = [
         {id:1,
@@ -56,6 +57,7 @@ function Product(){
         }
     ]
     return <div>
+         
          <h3 className="ourProducts">
             our product
          </h3>

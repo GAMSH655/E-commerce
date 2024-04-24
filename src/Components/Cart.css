@@ -1,0 +1,13 @@
+.goodContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.349); */
+}
+.cartCont{
+    text-align: center;
+    margin: 10px;
+    color: ye;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.349);
+    padding: 10px;
+}
