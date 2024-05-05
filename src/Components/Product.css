@@ -21,6 +21,9 @@
   position: relative;
   margin: 10px;
 }
+.startText{
+    text-align: center;
+}
 .ourProducts{
     font-size: 2rem;
     color: #DB4444;

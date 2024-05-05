@@ -73,10 +73,10 @@ function Product(){
                      {/* key={productList.id} */}
                         <img src={productList.producImg} alt="" className="productImg" />
                         <p className="productName">{productList.productName}</p>
+                        <Star/>
                         <p> 
                             <span className="initialPrice"><FaDollarSign/> {productList.productPrice}</span>
                         </p>
-                        <Star/>
 
                             <span className="eyeCont">
                             <FaEye/> <br />
