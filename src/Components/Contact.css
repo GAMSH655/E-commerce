@@ -119,9 +119,9 @@ textarea{
         margin-top: 20px;
     }
     .contactInput{
-        margin: 10px;
         padding: 15px;
-        width: 190px;
+        margin-top: 20px;
+        margin-right:20px ;
         border-radius: 10px;
         border: none;
         outline: none;

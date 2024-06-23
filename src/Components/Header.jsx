@@ -1,6 +1,6 @@
 import "./Header.css"
 import { NavLink } from "react-router-dom"
-import { FaHome  , FaPhone , FaUser ,FaFile  , FaTimes} from "react-icons/fa"
+import { FaHome  , FaPhone , FaUser ,FaFile  , FaTimes , FaShoppingBag ,FaSearch ,FaHeart} from "react-icons/fa"
 import { FaBars } from "react-icons/fa"
 import { useState } from "react"
 
@@ -23,17 +23,17 @@ function Header(){
             </div>
              <div className="searchContainer">
               <span>
-              <input type="" placeholder="what are looking for " className="input"/><i className="fa-solid fa-magnifying-glass "></i>
+              <input type="" placeholder="what are looking for " className="input"/><FaSearch className="searchIcon"/>
               </span>
-             <i className="fa-solid fa-heart"></i>
-             <NavLink to="/cart"> <i className="fa-solid fa-cart-shopping"></i></NavLink>
+             <FaHeart className="heart"/>
+             <NavLink to="/cart"><FaShoppingBag/></NavLink>
              </div>
          </div>
              {/* mobileHeader */}
          <div className="MobileHeader">
             <h3 className="MoblogoText">exclusive</h3>
             <span>
-              <input type="" placeholder="what are looking for " className="Mobinput"/><i className="fa-solid fa-magnifying-glass "></i>
+              <input type="" placeholder="what are looking for " className="Mobinput"/>
               </span>
             <button className="openBtn" onClick={handClick}>
                 {isOpen ? <FaTimes/> :  <FaBars/>}
@@ -42,8 +42,9 @@ function Header(){
             { isOpen && (
                          <div className="MobileNavcontainer">
                          <div className="searchContainer">
-                             <i className="fa-solid fa-heart"></i>
-                             <NavLink to="/cart"> <i className="fa-solid fa-cart-shopping"></i></NavLink>
+                           <FaHeart/>
+                             <NavLink to="/cart"> <FaShoppingBag/>
+                           </NavLink>
                              </div>
                                  <NavLink to ="/" className="MobileLink" >home <FaHome className="mobIcon"/> </NavLink>
                                   <NavLink to="/contact" className="MobileLink">Contact<FaPhone  className="mobIcon"/> </NavLink>

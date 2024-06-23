@@ -6,8 +6,8 @@ function Hero(){
          <div>
             <div className="heroParentContainer">
             <div className="textBox">
-                <p className="heroText">woman's fashion  <i className="fa-solid fa-chevron-right"></i></p>
-                <p className="heroText">men fashion   <i className="fa-solid fa-chevron-right right"></i></p>
+                <p className="heroText">woman's fashion</p>
+                <p className="heroText">men fashion </p>
                 <p className="heroText">electronics</p>
                 <p className="heroText">home and lifestyle</p>
                 <p className="heroText">medicine</p>

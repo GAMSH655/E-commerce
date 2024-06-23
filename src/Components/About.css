@@ -12,16 +12,17 @@
 .abText{
      font-size: 400;
      font-size: 1rem;
-     line-height: 50px;
+     line-height: 40px;
      padding:20px ;
 }
 .aboutText{
      margin: 50px;
 }
 .woman{
-    margin: 20px;
+    /* margin: 20px;
     height: 500px;
-    width: 500px;
+    width: 500px; */
+    width: 100%;
 }
 .midleContainer{
      display: flex;
@@ -97,14 +98,21 @@
      background-color: whitesmoke;
 }
 @media only screen and (max-width:768px){
+   .abText{
+     text-wrap: balance;
+     color: red;
+     font-size: 400;
+     font-size: 1rem;
+     line-height: 40px;
+     padding:0px ;
+   }
      .AboutConnt{
-          display: flex;
-          flex-wrap: wrap;
-          text-align: center;
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
      } 
      .woman{
-          width: 350px;
-          width: 350px;
+          width: 100%;
      }
      .midleContainer{
           display: flex;
@@ -118,6 +126,7 @@
           padding: 25px;
           transition: .5s all ease-in;
           margin: 20px;
+          width: 100%;
        }
        .peopleContainer{
           display: flex;
@@ -133,5 +142,6 @@
      }
      .box1{
           margin: 15px;
+         width: 100%;
      }
 }

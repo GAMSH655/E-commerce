@@ -8,6 +8,7 @@ import { FaEye } from "react-icons/fa";
 import Star from "../Components/Star";
 import { productContext } from "./ProductContext";
 import { useState } from "react";
+import { FaArrowRight , FaArrowLeft } from "react-icons/fa";
 function Flash() {
   const { cart, setCart } = productContext();
 
@@ -48,10 +49,10 @@ function Flash() {
         </div>
         <div className="arrowContainer">
           <button className="arrow">
-            <i className="fa-solid fa-arrow-left "></i>
+            < FaArrowLeft/>
           </button>
           <button className="arrow">
-            <i className="fa-solid fa-arrow-right "></i>
+          < FaArrowRight/>
           </button>
         </div>
       </div>

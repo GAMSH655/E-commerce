@@ -77,8 +77,7 @@ function Product(){
                         <p> 
                             <span className="initialPrice"><FaDollarSign/> {productList.productPrice}</span>
                         </p>
-
-                            <span className="eyeCont">
+                          <span className="eyeCont">
                             <FaEye/> <br />
                             <FaHeart/>
                             </span>
