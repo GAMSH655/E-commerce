@@ -83,11 +83,25 @@ textarea{
     padding: 9px;
     background-color: #DB4444;
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     right: 20px;
     border: none;
     outline: none;
     border-radius: 7px;
+
+}
+.sucDiv{
+    background-color: #fff;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.116);
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+}
+
+.error{
+    color: #DB4444;
+    text-transform: capitalize;
+    font-size: 1rem;
 }
 @media only screen and (max-width:768px) {
     .GridContainer{
@@ -119,9 +133,9 @@ textarea{
         margin-top: 20px;
     }
     .contactInput{
+        margin: 10px;
         padding: 15px;
-        margin-top: 20px;
-        margin-right:20px ;
+        width: 190px;
         border-radius: 10px;
         border: none;
         outline: none;
